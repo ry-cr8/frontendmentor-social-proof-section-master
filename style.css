@@ -1,0 +1,31 @@
+body {
+  background-color: white;
+  height: 100vh;
+
+  background-image:
+    url("./images/bg-pattern-top-desktop.svg"),
+    url("./images/bg-pattern-bottom-desktop.svg");
+
+  background-repeat: no-repeat, no-repeat;
+
+  background-position:
+    top left,
+    bottom right;
+}
+
+main {
+  margin: auto 0;
+}
+
+.top-section {
+  display: flex;
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
