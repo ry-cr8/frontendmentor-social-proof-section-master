@@ -22,9 +22,14 @@ body {
 }
 
 main {
+  min-height: 100vh;
   max-width: 1000px;
   width: 90%;
   margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero-content {
@@ -97,14 +102,15 @@ main {
 .testimonials {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 1.5rem;
 }
 
 .testimonial-card {
-  padding: 2.5rem;
+  padding: 1.8rem;
   background-color: hsl(300, 43%, 22%);
   border-radius: 0.4rem;
+  width: 100%;
+  flex: 1;
 }
 
 .testimonial-card:nth-child(1) {
@@ -156,11 +162,9 @@ main {
 }
 
 .testimonial-text {
-  font-weight: 400;
+  margin-top: 1.5rem;
   font-size: 0.9rem;
-  line-height: 1.1rem;
-  word-spacing: 0.1rem;
-  margin-right: 0.5rem;
+  line-height: 1.5;
 }
 
 .attribution {
